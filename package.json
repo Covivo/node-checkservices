@@ -1,0 +1,35 @@
+{
+  "name": "node-checkservices",
+  "version": "1.0.0",
+  "description": "check debian/ubuntu services & restart them automatically when needed",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Covivo/node-checkservices.git"
+  },
+  "keywords": [
+    "debian",
+    "ubuntu",
+    "services",
+    "restart",
+    "check",
+    "monitoring",
+    "automatic"
+  ],
+  "author": "MatthD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Covivo/node-checkservices/issues"
+  },
+  "homepage": "https://github.com/Covivo/node-checkservices#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "commander": "^2.15.1",
+    "it-optional": "^0.1.0",
+    "mocha": "^5.2.0"
+  }
+}
