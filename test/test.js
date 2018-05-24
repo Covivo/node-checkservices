@@ -11,7 +11,7 @@ it.optional = require('it-optional');
 
 // Dependencies tests
 describe('Check requirements', function () {
-
+  this.timeout(15000);
   it('Should be able to use sudo without error', function (done) {
     cp.execAsync('sudo service --status-all').then((stdout, stderr) =>{
       if(stdout && stdout.includes('[')){
@@ -55,6 +55,7 @@ describe('Check requirements', function () {
 });
 
 describe('Check Class', function(){
+  this.timeout(15000);
   it('Should restart apache2 if it is not started', function(done){
     const CheckingServices = require('../check.js');
     let check = new CheckingServices();
