@@ -1,6 +1,6 @@
 {
   "name": "node-checkservices",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check debian/ubuntu services & restart them automatically when needed",
   "main": "index.js",
   "scripts": {
