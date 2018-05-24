@@ -1,6 +1,6 @@
 # node-checkservices
-Npm module to check debian/ubuntu services  &amp; restart them automatically when needed
-
+Npm module to check apache/php on debian/ubuntu services  &amp; restart them automatically when needed
+For exemple, when all php-fpm worker have crashed or when apache has no more process to handle request
 
 ## Requirements
 
